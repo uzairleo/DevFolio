@@ -1,6 +1,8 @@
 import React from "react";
 import "./SoftwareSkill.scss";
-import {skillsSection} from "../../portfolio";
+import { skillsSection } from "../../portfolio";
+
+import flutterIcon from '../../assets/images/flutter.svg'; // Import SVG icon
 
 export default function SoftwareSkill() {
   return (
@@ -14,7 +16,12 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                <i className={skills.fontAwesomeClassname}></i>
+                {skills.skillName === 'Flutter' && (
+                  <img src={flutterIcon} alt="Flutter Icon" className="svg-icon" />
+                )}
+                {skills.skillName !== 'Flutter' && (
+                  <i className={skills.fontAwesomeClassname}></i>
+                )}
                 <p>{skills.skillName}</p>
               </li>
             );
