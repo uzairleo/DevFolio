@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Mobile and Web applications with Flutter / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1fWtGsMtqfanL1SFKLU7dFNgdRpr1JoDz/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -165,11 +165,11 @@ const techStack = {
     },
     {
       Stack: "Frontend/Design",
-      progressPercentage: "80%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -186,25 +186,27 @@ const workExperiences = {
       company: "Costa Coffee",
       companylogo: require("./assets/images/costar.png"),
       date: "May 2019 – May 2020",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "As a Frontend Developer at Costa Coffee, I was responsible for crafting engaging and user-friendly digital experiences that enhance customer interaction with the brand, ensuring seamless navigation and visual appeal on Costa Coffee's BH Mobile platforms."
     },
     {
       role: "Associate Software Engineer",
       company: "AntonxHQ",
       companylogo: require("./assets/images/antonx.jpeg"),
       date: "June 2020 – June 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "At AntonX, I contributed to the development and enhancement of software solutions, collaborating with cross-functional teams to implement innovative features and maintain high-quality code standards, thereby supporting AntonXHQ mission of delivering cutting-edge technology solutions to clients.",
+     
     },
     {
       role: "Senior Software Engr",
       company: "Totem Technologies",
       companylogo: require("./assets/images/tot.webp"),
       date: "June 2022 – Dec 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "At Totem, I spearhead the design and development of robust software solutions, leveraging my expertise to guide and mentor the engineering team in delivering high-performance and scalable products. I play a pivotal role in driving innovation and ensuring the successful execution of projects to meet Totem Technologies' strategic objectives."
+     ,
+    //  descBullets: [
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    //   ]
     }
   ]
 };
@@ -213,8 +215,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -413,7 +415,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

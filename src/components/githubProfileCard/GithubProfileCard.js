@@ -20,7 +20,7 @@ export default function GithubProfileCard({prof}) {
             <div className="blog-header">
               <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
             </div>
-            <h2 className="bio-text">"{emoji(String("Flutter || Android || React Native || IOT Developer || UI/UX || ML || SEO/SEM || Chatbots || Kevy"))}"</h2>
+            <h2 className="bio-text">"{emoji(String(" ⚡️ Software Engineer Building Mobile & Web Apps💠 Flutter / React-Native / NodeJS ⚡️"))}"</h2>
             {prof.location !== null && (
               <div className="location-div">
                 <span className="desc-prof">
@@ -50,8 +50,8 @@ export default function GithubProfileCard({prof}) {
           </div>
           <div className="image-content-profile">
             <img
-              src={prof.avatarUrl}
-              alt={prof.name}
+              src={"https://avatars.githubusercontent.com/u/52172428?v=4"}
+              alt={"uzairleo"}
               className="profile-image"
             />
           </div>
