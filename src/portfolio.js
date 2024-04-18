@@ -235,7 +235,7 @@ const bigProjects = {
           url: "https://play.google.com/store/apps/details?id=apps.spacetap.mustafed&hl=en&gl=US"
         },
         {
-          name: "Play Store",
+          name: "App Store",
           url: "https://apps.apple.com/us/app/mustafed/id1591734513"
         }
       ]
@@ -250,8 +250,8 @@ const bigProjects = {
           url: "https://play.google.com/store/apps/details?id=apps.spacetap.costacoffee&hl=en&gl=US"
         },
         {
-          name: "Play Store",
-          url: "https://play.google.com/store/apps/details?id=apps.spacetap.costacoffee&hl=en&gl=US"
+          name: "App Store",
+          url: "https://apps.apple.com/ai/app/costa-coffee-club-bh/id1611387983"
         }
       ]
     },
@@ -319,7 +319,7 @@ const achievementSection = {
         // },
         {
           name: "GDG peshawar Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://devpost.com/software/hellocoder-learntocode"
         }
       ]
     },
@@ -331,7 +331,7 @@ const achievementSection = {
       image: require("./assets/images/plant.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Visit App", url: "https://play.google.com/store/apps/details?id=com.uzairleo.plantcure&hl=en&gl=US"},
+        {name: "Visit App", url: "https://apkcombo.com/plant-cure/com.uzairleo.plantcure/"},
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
